@@ -1,0 +1,17 @@
+#include<studio.h>
+
+int main() {
+
+int a,b,c avg; //Declaring the variables
+printf("Enter three variables:\n");
+printf("a:");
+sacnf("%d", & a); // Reading Variable a
+printf("b:");
+scanf("%d" ,& b); //Reading Variable b
+printf("C:");
+scanf("%d",& c); // Reading Variable c
+avg=( a+b+c) / 3;
+
+printf("\nAverage of %d,%d and %d is %d,a ,b,c avg);
+
+}
